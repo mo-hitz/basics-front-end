@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Refresher HTML
+        </title>
+        <link rel="stylesheet" type="text/css" href = "./css/st.css" >
+    </head>
+    <body>
+        <h1>ASSIGNMENT 1 </h1>
+        <div id="frm">
+            <form method="POST" action ="">
+                
+                <div>
+                    <label for="firstName">First Name: </label>
+                    <input name="firstName" id="firstName" type="text" placeholder="Enter your First Name" required >
+                    <span>&emsp; &emsp; &emsp;</span>
+                    <label for="lastName">  Last Name: </label>
+                    <input name="lastName" id="lastName" type="text" placeholder="Enter your Last Name" required >
+                </div>
+                <br>
+                <div>
+                    <label> 
+                        Male 
+                        <input name= "Gender" type="radio" value="Male" >
+                    </label>
+                    <span>&emsp; &emsp; &emsp;</span>
+                    <label> 
+                        Female 
+                        <input name= "Gender" type="radio" value="Female" >
+                    </label>
+                    <span>&emsp; &emsp; &emsp;</span>
+                    <label> 
+                        Other
+                        <input name= "Gender" type="radio" value="Other" >
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input name="Email" type="email" id="email" placeholder="Enter your Email" required >
+                    <span>&emsp; &emsp; &emsp;</span>
+                    <label for="password">Password:</label>
+                    <input name="password" type="password" id="password" placeholder="Enter your Password" pattern=".{5,10}" title="Password must lie between 5 to 10 characters!" required >
+                </div>
+                <br>
+                <div>
+                    <label>Hobby : </label>
+                    <select name="Hobby">
+                        <option value="reading">Reading</option>
+                        <option value="playing">Playing</option>
+                        <option value="singing">Singing</option>
+                        <option value="dancing">Dancing</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="terms">
+                    I hereby confirm that details filled are true upto my knowldege
+                </div>
+                <br>
+                <button>Submit! </button>
+            </form>
+        </div>
+    </body>
+</html>
